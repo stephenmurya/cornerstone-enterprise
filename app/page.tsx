@@ -167,7 +167,7 @@ export default function HomePage() {
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </div>
-            <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-4">
+            <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
               {apparelProducts.map((product) => (
                 <ProductCard key={product.id} product={product} portrait />
               ))}
@@ -192,7 +192,7 @@ export default function HomePage() {
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </div>
-            <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-4">
+            <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
               {generalProducts.slice(0, 4).map((product) => (
                 <ProductCard key={product.id} product={product} />
               ))}

@@ -68,7 +68,7 @@ export function ProductCard({
           <button
             type="button"
             disabled={!product.inStock}
-            className="inline-flex items-center gap-2 rounded-full bg-[var(--brand)] px-4 py-3 text-sm font-semibold text-white transition hover:bg-[var(--brand-strong)] disabled:cursor-not-allowed disabled:bg-slate-300 disabled:text-slate-500"
+            className="inline-flex items-center gap-2 rounded-xl bg-[var(--brand)] px-4 py-3 text-sm font-semibold text-white transition hover:bg-[var(--brand-strong)] disabled:cursor-not-allowed disabled:bg-slate-300 disabled:text-slate-500"
           >
             <ShoppingCart className="h-4 w-4" />
             Add to Cart

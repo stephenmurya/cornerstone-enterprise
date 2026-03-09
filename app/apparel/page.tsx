@@ -71,7 +71,7 @@ export default function ApparelPage() {
           </Link>
         </div>
 
-        <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-4">
+        <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-3">
           {apparelProducts.map((product) => (
             <ProductCard key={product.id} product={product} portrait />
           ))}
